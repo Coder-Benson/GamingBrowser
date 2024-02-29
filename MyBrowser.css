@@ -1,0 +1,107 @@
+
+h2{
+	color: greenyellow;
+}
+.img{
+	background-color: forestgreen;
+	background-size: cover;
+	background-position: center;
+}
+
+.dropdown__menu{
+	display: block;
+}
+
+.dropdown__menu{
+	border: 1px solid #eee;
+	width: 120px;
+	transition: all 0.50s;
+	position: absolute;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.dropdown__button{
+	background: skyblue;
+	border: none;
+	padding: 5px;
+	width: 120px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.dropdown__menu a:hover{
+	background: #eee;
+}
+
+.hide{
+	max-height: 0;
+	opacity: 0%;
+}
+
+.dropdown__menu2{
+	display: block;
+}
+
+.dropdown__menu2{
+	border: 1px solid #eee;
+	width: 120px;
+	transition: all 0.50s;
+	position: absolute;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.dropdown__button2{
+	background: skyblue;
+	border: none;
+	padding: 5px;
+	width: 120px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.dropdown__menu2 a:hover{
+	background: #eee;
+}
+
+.hide{
+	max-height: 0;
+	opacity: 0%;
+}
+
+body{
+    background-image: url("Space.gif");
+}
+
+.dropdown__menu3{
+	display: block;
+}
+
+.dropdown__menu3{
+	border: 1px solid #eee;
+	width: 120px;
+	transition: all 0.50s;
+	position: absolute;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.dropdown__button3{
+	background: skyblue;
+	border: none;
+	padding: 5px;
+	width: 120px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.dropdown__menu3 a:hover{
+	background: #eee;
+}
+
+.hide{
+	max-height: 0;
+	opacity: 0%;
+}
+
+h1{
+	color: lime;
+}

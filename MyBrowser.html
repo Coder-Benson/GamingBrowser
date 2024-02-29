@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+	<head>
+		<meta"http-equiv="refresh"content="2">
+        <title>Gaming Browser</title>
+        <style type="text/css">
+            body{
+                background-image: url("Space.jpeg");
+                background-size: auto;
+                background-color: forestgreen;
+            }
+
+h2{
+	color: greenyellow;
+}
+.img{
+	background-size: cover;
+	background-position: center;
+}
+
+.dropdown__menu{
+	display: block;
+}
+
+.dropdown__menu{
+	border: 1px solid #eee;
+	width: 120px;
+	transition: all 0.50s;
+	position: absolute;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.dropdown__button{
+	background: skyblue;
+	border: none;
+	padding: 5px;
+	width: 120px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.dropdown__menu a:hover{
+	background: #eee;
+}
+
+.hide{
+	max-height: 0;
+	opacity: 0%;
+}
+
+.dropdown__menu2{
+	display: block;
+}
+
+.dropdown__menu2{
+	border: 1px solid #eee;
+	width: 120px;
+	transition: all 0.50s;
+	position: absolute;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.dropdown__button2{
+	background: skyblue;
+	border: none;
+	padding: 5px;
+	width: 120px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.dropdown__menu2 a:hover{
+	background: #eee;
+}
+
+.hide{
+	max-height: 0;
+	opacity: 0%;
+}
+
+body{
+    background-image: url("Space.gif");
+}
+
+.dropdown__menu3{
+	display: block;
+}
+
+.dropdown__menu3{
+	border: 1px solid #eee;
+	width: 120px;
+	transition: all 0.50s;
+	position: absolute;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.dropdown__button3{
+	background: skyblue;
+	border: none;
+	padding: 5px;
+	width: 120px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.dropdown__menu3 a:hover{
+	background: #eee;
+}
+
+.hide{
+	max-height: 0;
+	opacity: 0%;
+}
+
+h1{
+	color: lime;
+}
+            
+        </style>
+
+	<head>
+		<body>
+			<div class="img">
+			<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the Gaming browser</h2>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<form action="https://duckduckgo.com/">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="q" placeholder="type">					
+					<button>search</button>
+				</form>
+				<div class="dropdown">
+					<button class="dropdown__button">Actions</button>
+					<div class="dropdown__menu hide">
+						<button onclick="window.location.href='https://bing.com';">Go to bing</button>
+						<button onclick="window.location.href='https://google.com';">Go to google</button>
+						<button onclick="window.location.href='https://yahoo.com';">Go to yahoo</button>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div class="dropdown1">
+					<button class="dropdown__button2">More Actions</button>
+					<div class="dropdown__menu2 hide2">
+						<a href="Bing.html">Bing version</a>
+						<br>
+						<a href="Google.html">Google version</a>
+						<br>
+						<a href="Yahoo.html">Yahoo version</a>
+                        <br>
+                        <a href="Youtube.html">Youtube version</a>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+            <br>
+            <div class="dropdown3">
+					<button class="dropdown__button3">More More Actions</button>
+					<div class="dropdown__menu3 hide">
+						<button onclick="window.location.href='https://www.youtube.com/watch?v=HIcSWuKMwOw';">Go to random</button>
+						<button onclick="window.location.href='https://google.com/sites';">Go to google sites</button>
+                        <a href="MyBrowser.html" download>
+                            Downlaod the code for this website
+                        </a>
+					</div>
+				</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+
+
+				<p>Thanks for using<p><h2>GAMING BROWSER.<h2>
+					<p>and don't worry, it is safe. you can inspect the code.<p>
+                        <h1>Made by Gamer Benson/Coder Benson
+				</div>
+                <script>const dropdownBtn = document.querySelector(".dropdown__button");
+                    const dropdownMenu = document.querySelector(".dropdown__menu");
+                    
+                    dropdownBtn.addEventListener("click", () => {
+                    dropdownMenu.classList.toggle("hide");
+                    });
+                    
+                    const dropdownBtn2 = document.querySelector(".dropdown__button2");
+                    const dropdownMenu2 = document.querySelector(".dropdown__menu2");
+                    
+                    dropdownBtn2.addEventListener("click", () => {
+                    dropdownMenu2.classList.toggle("hide");
+                    });
+                    
+                    const dropdownBtn3 = document.querySelector(".dropdown__button3");
+                    const dropdownMenu3 = document.querySelector(".dropdown__menu3");
+                    
+                    dropdownBtn3.addEventListener("click", () => {
+                    dropdownMenu3.classList.toggle("hide");
+                    });
+                    </script>
+			</body>
+</html>
